@@ -6,6 +6,14 @@
 
 *An AI-powered decision-support platform for industrial paper-machine grade transitions*
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Grade_Change_Intelligence_System-181717?style=for-the-badge&logo=github)](https://github.com/yasaswinipakam/Grade_Change_Intelligence_System)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![XGBoost](https://img.shields.io/badge/XGBoost-ML_Model-FF6600?style=for-the-badge)](https://xgboost.readthedocs.io)
+
+🔗 **[https://github.com/yasaswinipakam/Grade_Change_Intelligence_System](https://github.com/yasaswinipakam/Grade_Change_Intelligence_System)**
+
 </div>
 
 ---
