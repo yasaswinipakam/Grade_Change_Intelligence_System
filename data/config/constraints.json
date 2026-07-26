@@ -1,0 +1,4 @@
+{
+  "step_percent": {"minimum": 2, "maximum": 8, "ramp_maximum": 2, "stabilization_maximum": 3, "recovery_maximum": 3},
+  "controllable_variables": ["Q_feed", "C_feed", "V_line", "P_heat", "P_aux", "Q_add", "E_extract", "R_aid", "F_inert"]
+}

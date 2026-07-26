@@ -1,0 +1,2 @@
+import {CircleCheck,WifiOff} from 'lucide-react'; import type {Health} from '../types/api';
+export function StatusBar({health}:{health?:Health}){const ready=health?.status==='healthy';return <div className={`status ${ready?'online':'offline'}`}>{ready?<CircleCheck size={16}/>:<WifiOff size={16}/>}<span>{ready?'Backend online · models, SHAP, and constraints ready':'Backend unavailable'}</span></div>}
