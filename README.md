@@ -101,22 +101,25 @@ The end-to-end workflow: the physics-inspired simulator generates labelled proce
 - Python 3.10+
 - Node.js 18+
 
-### Python dependencies
+### 1. Start the Backend (Terminal 1)
+
+From the `Grade_Change_Intelligence_System` root directory:
 
 ```bash
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies and start the API server
 pip install -r requirements.txt
-```
-
-### Backend
-
-From the project root (activate your virtual environment first):
-
-```bash
-source venv/bin/activate
 uvicorn backend.app:app --reload --port 8000
 ```
 
-### Frontend
+*The API will be live at `http://localhost:8000` (interactive API docs at `http://localhost:8000/docs`).*
+
+### 2. Start the Frontend Dashboard (Terminal 2)
+
+Open a new terminal window inside the `frontend` directory:
 
 ```bash
 cd frontend
@@ -124,10 +127,10 @@ npm install
 npm run dev
 ```
 
-Open the Vite URL printed in the terminal (default: `http://localhost:5173`).  
-Interactive API docs: `http://localhost:8000/docs`
+*Open the Vite URL printed in your terminal (default: `http://localhost:5173`) to view the interactive dashboard.*
 
 ---
+
 
 ## Results
 
